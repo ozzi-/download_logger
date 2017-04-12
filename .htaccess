@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule "^actual_file.pdf$" 404
+RewriteRule "^logging_file.pdf$"  "https://example.com/logging_file.php"  [R]
